@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>ND Shoes</title>
+</head>
+<body>
+    <div id="root">
+        <header class="header flexbox-center">
+            <div class="container header-wapper">
+                <div class="header-logo">
+                    <img src="./assets/img/logo.webp" alt="" class="header-logo__img">
+                </div>
+                <nav class="header-nav hide-tablet">
+                    <ul class="flexbox-center header-list">
+                        <li class="hearder-list__item active">
+                            <a href="#" class="header-link">Trang chu</a>
+                        </li>
+                        <li class="hearder-list__item">
+                            <a href="#" class="header-link">Gioi thieu</a>
+                        </li>
+                        <li class="hearder-list__item">
+                            <a href="#" class="header-link">San pham</a>
+                            <i class="fa-solid fa-caret-down icon"></i>
+                            <ul class="header-more">
+                                <li class="header-more__item">Adidas</li>
+                                <li class="header-more__item">Nike</li>
+                                <li class="header-more__item">Converse</li>
+                                <li class="header-more__item">Vans</li>
+                                <li class="header-more__item">Puma</li>
+                                <li class="header-more__item">FILA</li>
+                                <li class="header-more__item">MLB</li>
+                                <li class="header-more__item">New BalanceS</li>
+                            </ul>
+                        </li>
+                        <li class="hearder-list__item">
+                            <a href="#" class="header-link">Tin tuc</a>
+                        </li>
+                        <li class="hearder-list__item">
+                            <a href="#" class="header-link">Lien he</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="flexbox-center header-group">
+                    <div class="header-icon header-icon--search">
+                        <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                        <div class="flexbox-center header-search">
+                            <input type="text" class="header-search__input" placeholder="Tim kiem san pham">
+                            <i class="fa-brands fa-searchengin header-search__icon"></i>
+                        </div>
+                    </div>
+                    <div class="header-icon header-icon--user">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="header-login">
+                            <p class="header-login__text">Dang nhap</p>
+                            <p class="header-login__text">Dang ky</p>
+                        </div>
+                    </div>
+                    <div class="header-icon">
+                        <span class="flexbox-center header-total">0</span>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="header-icon header-icon--cart">
+                        <span class="flexbox-center header-total">0</span>
+                        <i class="fa-brands fa-opencart"></i>
+                        <div class="flexbox-center header-cart">
+                            <img src="./assets/img/icon-tuida.png" alt="" class="header-cart__img">
+                            <p class="header-cart__text">
+                                Khong co san pham nao trong vo hang cua ban
+                            </p>
+                        </div>
+                    </div>
+                    <div class="header-icon hide-pc">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="content">
+            <section class="slider">
+                <div class="slider-img">
+                    <img src="./assets/img/slider_1.webp" alt="" class="slider-content">
+                </div>
+            </section>
+            <section class="flexbox-center about">
+                <div class="about-group">
+                    <div class="about-box">
+                        <div class="about-img">
+                            <img src="./assets/img/icon_service_1.svg" alt="">
+                        </div>
+                        <h4 class="about-title">
+                            GIAO HÀNG TOÀN QUỐC
+                        </h4>
+                        <p class="about-text">
+                            Miễn phí vận chuyển với đơn hàng trị giá trên 2000000Đ
+                        </p>
+                    </div>
+                    <div class="about-box hide-mobile">
+                        <div class="about-img">
+                            <img src="./assets/img/icon_service_2.svg" alt="">
+                        </div>
+                        <h4 class="about-title">
+                            HỔ TRỢ ONLINE 24/24
+                        </h4>
+                        <p class="about-text">
+                            Luôn hổ trợ khách hàng 24/24 tất cả các ngày trong tuần
+                        </p>
+                    </div>
+                    <div class="about-box hide-mobile">
+                        <div class="about-img">
+                            <img src="./assets/img/icon_service_3.svg" alt="">
+                        </div>
+                        <h4 class="about-title">
+                            ĐỔI HÀNG DỄ DÀNG
+                        </h4>
+                        <p class="about-text">
+                            Miễn phí đổi trả trong vòng 30 ngày đầu tiên cho tất cả các mặt hàng
+                        </p>
+                    </div>
+                    <div class="about-box hide-tablet">
+                        <div class="about-img">
+                            <img src="./assets/img/icon_service_4.svg" alt="">
+                        </div>
+                        <h4 class="about-title">
+                            QUÀ TẶNG HẤP DẪN
+                        </h4>
+                        <p class="about-text">
+                            Chương trình khuyến mãi cực lớn và hấp dẫn hàng tháng
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="flexbox-center">
+                <div class="produce">
+                    <h2 class="flexbox-center produce-title">
+                        SẢN PHẨM MỚI
+                    </h2>
+                    <p class="produce-text">
+                        Các sản phẩm mới có tại cửa hàng
+                    </p>
+                    <div class="produce-wapper">
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/1.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/1.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07 Cam
+                                </h2>
+                                <p class="produce-info__price">
+                                    5000000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/2.1.webp" alt="" class="produce-card__img">
+                                    <ul class="flexbox-center produce-list">
+                                        <li class="produce-item active">40</li>
+                                        <li class="produce-item">41</li>
+                                        <li class="produce-item">42</li>
+                                        <li class="produce-item">+3</li>
+                                    </ul>
+                                </div>
+                                <img src="./assets/img/2.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07 LV8
+                                </h2>
+                                <p class="produce-info__price">
+                                    3900000đ
+                                </p>
+                            </div>
+                            <div class="produce-more">
+                                <div class="produce-more__img active">
+                                    <img src="./assets/img/2.1.webp" alt="">
+                                </div>
+                                <div class="produce-more__img">
+                                    <img src="./assets/img/2.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-mobile">
+                            <div class="produce-group">
+                                <div class="produce-sale">
+                                    -33%
+                                </div>
+                                <div class="produce-card">
+                                    <img src="./assets/img/3.1.webp" alt="" class="produce-card__img">
+                                    <ul class="flexbox-center produce-list">
+                                        <li class="produce-item active">40</li>
+                                        <li class="produce-item">41</li>
+                                        <li class="produce-item">42</li>
+                                        <li class="produce-item">+3</li>
+                                    </ul>
+                                </div>
+                                <img src="./assets/img/3.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07
+                                </h2>
+                                <p class="produce-info__price">
+                                    2000000đ
+                                </p>
+                                <p class="produce-info__old">3000000đ</p>
+                            </div>
+                            <div class="produce-more">
+                                <div class="produce-more__img active">
+                                    <img src="./assets/img/3.1.webp" alt="">
+                                </div>
+                                <div class="produce-more__img">
+                                    <img src="./assets/img/3.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/4.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/4.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    LeBron 19
+                                </h2>
+                                <p class="produce-info__price">
+                                    20000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/5.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/5.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Blazer x sacaix KAWS
+                                </h2>
+                                <p class="produce-info__price">
+                                    5100000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/6.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/6.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Max 90
+                                </h2>
+                                <p class="produce-info__price">
+                                    5100000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/7.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/7.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <h2 class="produce-info__name">
+                                    Nike Air Huarache PRM QS
+                                </h2>
+                                <p class="produce-info__price">
+                                    5829000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/8.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/8.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <h2 class="produce-info__name">
+                                    Kyrie Infinity
+                                </h2>
+                                <p class="produce-info__price">
+                                    4829000đ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexbox-center">
+                        <button class="produce-btn">
+                            Xem Tất Cả
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="flexbox-center">
+                <div class="produce">
+                    <h2 class="flexbox-center produce-title">
+                        SẢN PHẨM BÁN CHẠY
+                    </h2>
+                    <p class="produce-text">
+                        Các sản phẩm bán chạy tại cửa hàng
+                    </p>
+                    <div class="produce-slider">
+                        <img src="./assets/img/hình nền.webp" alt="" class="produce-slider__img">
+                    </div>
+                    <div class="produce-wapper">
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/1.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/1.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07 Cam
+                                </h2>
+                                <p class="produce-info__price">
+                                    5000000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/2.1.webp" alt="" class="produce-card__img">
+                                    <ul class="flexbox-center produce-list">
+                                        <li class="produce-item active">40</li>
+                                        <li class="produce-item">41</li>
+                                        <li class="produce-item">42</li>
+                                        <li class="produce-item">+3</li>
+                                    </ul>
+                                </div>
+                                <img src="./assets/img/2.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07 LV8
+                                </h2>
+                                <p class="produce-info__price">
+                                    3900000đ
+                                </p>
+                            </div>
+                            <div class="produce-more">
+                                <div class="produce-more__img active">
+                                    <img src="./assets/img/2.1.webp" alt="">
+                                </div>
+                                <div class="produce-more__img">
+                                    <img src="./assets/img/2.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-mobile">
+                            <div class="produce-group">
+                                <div class="produce-sale">
+                                    -33%
+                                </div>
+                                <div class="produce-card">
+                                    <img src="./assets/img/3.1.webp" alt="" class="produce-card__img">
+                                    <ul class="flexbox-center produce-list">
+                                        <li class="produce-item active">40</li>
+                                        <li class="produce-item">41</li>
+                                        <li class="produce-item">42</li>
+                                        <li class="produce-item">+3</li>
+                                    </ul>
+                                </div>
+                                <img src="./assets/img/3.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07
+                                </h2>
+                                <p class="produce-info__price">
+                                    2000000đ
+                                </p>
+                                <p class="produce-info__old">3000000đ</p>
+                            </div>
+                            <div class="produce-more">
+                                <div class="produce-more__img active">
+                                    <img src="./assets/img/3.1.webp" alt="">
+                                </div>
+                                <div class="produce-more__img">
+                                    <img src="./assets/img/3.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/4.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/4.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    LeBron 19
+                                </h2>
+                                <p class="produce-info__price">
+                                    20000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/5.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/5.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Blazer x sacaix KAWS
+                                </h2>
+                                <p class="produce-info__price">
+                                    5100000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/6.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/6.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Max 90
+                                </h2>
+                                <p class="produce-info__price">
+                                    5100000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/7.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/7.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <h2 class="produce-info__name">
+                                    Nike Air Huarache PRM QS
+                                </h2>
+                                <p class="produce-info__price">
+                                    5829000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/8.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/8.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <h2 class="produce-info__name">
+                                    Kyrie Infinity
+                                </h2>
+                                <p class="produce-info__price">
+                                    4829000đ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexbox-center">
+                        <button class="produce-btn">
+                            Xem Tất Cả
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="flexbox-center sneakers">
+                <div class="produce">
+                    <h2 class="flexbox-center produce-title">
+                        SNEAKERS
+                    </h2>
+                    <p class="produce-text">
+                        Các sản phẩm Sneakers có tại ND Shoes
+                    </p>
+                    <div class="flexbox-center">
+                        <ul class="flexbox-center produce-nav">
+                            <li class="produce-nav__item active">Adidas</li>
+                            <li class="produce-nav__item">Nike</li>
+                            <li class="produce-nav__item">Converse</li>
+                            <li class="produce-nav__item">Vans</li>
+                            <li class="produce-nav__item">Puma</li>
+                            <li class="produce-nav__item">FILA</li>
+                            <li class="produce-nav__item">MLB</li>
+                            <li class="produce-nav__item">New Balance</li>
+                        </ul>
+                    </div>
+                    <div class="produce-wapper">
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-sale">
+                                    -2%
+                                </div>
+                                <div class="produce-card">
+                                    <img src="./assets/img/9.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/9.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07 Cam
+                                </h2>
+                                <p class="produce-info__price">
+                                    5000000đ
+                                </p>
+                                <p class="produce-info__old">3000000đ</p>
+                            </div>
+                        </div>
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/10.1.webp" alt="" class="produce-card__img">
+                                    <ul class="flexbox-center produce-list">
+                                        <li class="produce-item active">36.5 EUR</li>
+                                        <li class="produce-item">37.5 EUR</li>
+                                        <li class="produce-item">38.5 EUR</li>
+                                    </ul>
+                                </div>
+                                <img src="./assets/img/10.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07 LV8
+                                </h2>
+                                <p class="produce-info__price">
+                                    3900000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/11.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/11.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Force 1 07
+                                </h2>
+                                <p class="produce-info__price">
+                                    Liên Hệ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/12.1.webp" alt="" class="produce-card__img">
+                                    <ul class="flexbox-center produce-list">
+                                        <li class="produce-item active">230 - 36.5 EUR</li>
+                                        <li class="produce-item">235 - 37.5 EUR</li>
+                                        <li class="produce-item else">+2</li>
+                                        <li class="produce-item">240 - 38.0 EUR</li>
+                                    </ul>
+                                </div>
+                                <img src="./assets/img/12.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    LeBron 19
+                                </h2>
+                                <p class="produce-info__price">
+                                    20000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-card">
+                                    <img src="./assets/img/13.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/13.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Blazer x sacaix KAWS
+                                </h2>
+                                <p class="produce-info__price">
+                                    5100000đ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-cart">
+                            <div class="produce-group">
+                                <div class="produce-sale">
+                                    -30%
+                                </div>
+                                <div class="produce-card">
+                                    <img src="./assets/img/14.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/14.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <p class="produce-info__title">
+                                    NIKE
+                                </p>
+                                <h2 class="produce-info__name">
+                                    Nike Air Max 90
+                                </h2>
+                                <p class="produce-info__price">
+                                    5100000đ
+                                </p>
+                                <p class="produce-info__old">5000000đ</p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-sale">
+                                    -7%
+                                </div>
+                                <div class="produce-card">
+                                    <img src="./assets/img/15.1.webp" alt="" class="produce-card__img">
+                                </div>
+                                <img src="./assets/img/15.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <h2 class="produce-info__name">
+                                    Nike Air Huarache PRM QS
+                                </h2>
+                                <p class="produce-info__price">
+                                    5829000đ
+                                </p>
+                                <p class="produce-info__old">4100000đ</p>
+                            </div>
+                        </div>
+                        <div class="produce-cart hide-tablet">
+                            <div class="produce-group">
+                                <div class="produce-sale">
+                                    -36%
+                                </div>
+                                <div class="produce-card">
+                                    <img src="./assets/img/16.1.webp" alt="" class="produce-card__img">
+                                    <ul class="flexbox-center produce-list">
+                                        <li class="produce-item active">39.5</li>
+                                        <li class="produce-item">41</li>
+                                        <li class="produce-item">42</li>
+                                        <li class="produce-item else">+3</li>
+                                    </ul>
+                                </div>
+                                <img src="./assets/img/16.webp" alt="" class="produce-img">
+                                <div class="produce-love">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="flexbox-center produce-add">
+                                    <i class="fa-brands fa-opencart"></i>
+                                </div>
+                            </div>
+                            <div class="produce-info">
+                                <h2 class="produce-info__name">
+                                    Kyrie Infinity
+                                </h2>
+                                <p class="produce-info__price">
+                                    4829000đ
+                                </p>
+                                <p class="produce-info__old">3900000đ</p>
+                            </div>
+                            <div class="produce-more">
+                                <div class="produce-more__img active">
+                                    <img src="./assets/img/16.webp" alt="">
+                                </div>
+                                <div class="produce-more__img">
+                                    <img src="./assets/img/xx.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="flexbox-center">
+                <div class="produce">
+                    <h2 class="flexbox-center produce-title">
+                        PHỤ KIỆN
+                    </h2>
+                    <p class="produce-text">
+                        Tất cả phụ kiện có tại ND Shoes
+                    </p>
+                    <div class="produce-accessory">
+                        <div class="produce-accessory__cart">
+                            <div class="produce-accessory__img">
+                                <div class="produce-accessory__wapper">
+                                </div>
+                            </div>
+                            <div class="produce-accessory__group">
+                                <h3 class="produce-accessory__title">
+                                    Khóa giày
+                                </h3>
+                                <p class="produce-accessory__more">
+                                    Xem thêm
+                                    <i class="fa-solid fa-right-long"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-accessory__cart">
+                            <div class="produce-accessory__img">
+                                <div class="produce-accessory__wapper">
+                                </div>
+                            </div>
+                            <div class="produce-accessory__group">
+                                <h3 class="produce-accessory__title">
+                                    Tất giày
+                                </h3>
+                                <p class="produce-accessory__more">
+                                    Xem thêm
+                                    <i class="fa-solid fa-right-long"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="produce-accessory__cart">
+                            <div class="produce-accessory__img">
+                                <div class="produce-accessory__wapper">
+                                </div>
+                            </div>
+                            <div class="produce-accessory__group">
+                                <h3 class="produce-accessory__title">
+                                    Dây giày
+                                </h3>
+                                <p class="produce-accessory__more">
+                                    Xem thêm
+                                    <i class="fa-solid fa-right-long"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexbox-center">
+                        <button class="produce-btn">
+                            Xem Tất Cả
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="flexbox-center feedback">
+                <div class="feedback-wapper">
+                    <h2 class="flexbox-center produce-title feedback-color">
+                        FEEDBACK
+                    </h2>
+                    <p class="produce-text feedback-color">
+                        Album feedback của khách hàng về ND Shoes
+                    </p>
+                    <div class="feedback-group">
+                        <div class="feedback-cart">
+                            <img src="./assets/img/feedback_1.webp" alt="" class="feedback-img">
+                        </div>
+                        <div class="feedback-cart">
+                            <img src="./assets/img/feedback_2.webp" alt="" class="feedback-img">
+                        </div>
+                        <div class="feedback-cart hide-mobile">
+                            <img src="./assets/img/feedback_3.webp" alt="" class="feedback-img">
+                        </div>
+                        <div class="feedback-cart hide-tablet">
+                            <img src="./assets/img/feedback_4.webp" alt="" class="feedback-img">
+                        </div>
+                        <div class="feedback-cart hide-mobile">
+                            <img src="./assets/img/feedback_5.webp" alt="" class="feedback-img">
+                        </div>
+                        <div class="feedback-cart">
+                            <img src="./assets/img/feedback_6.webp" alt="" class="feedback-img">
+                        </div>
+                        <div class="feedback-cart">
+                            <img src="./assets/img/feedback_7.webp" alt="" class="feedback-img">
+                        </div>
+                        <div class="feedback-cart hide-tablet">
+                            <img src="./assets/img/feedback_8.webp" alt="" class="feedback-img">
+                        </div>
+                    </div>
+                    <ul class="flexbox-center feedback-list">
+                        <li class="feedback-item active"></li>
+                        <li class="feedback-item"></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="flexbox-center news">
+                <div class="news-wapper">
+                    <h2 class="flexbox-center produce-title">
+                        TIN TỨC
+                    </h2>
+                    <p class="produce-text">
+                        Tổng hợp tin tức, mẹo vặt cho bạn
+                    </p>
+                    <div class="flexbox-center news-group">
+                        <div class="news-box">
+                            <img src="./assets/img/t7.webp" alt="" class="news-img">
+                            <h3 class="news-title">
+                                King James mang đôi OFF-WHITE x Nike Air Force 1 University Yellow của Virgil Abloh có gì đặc biệt?
+                            </h3>
+                            <p class="news-info">
+                                <span class="news-heading">
+                                    <i class="fa-solid fa-user"></i>
+                                    Phạm Đang Huy
+                                </span>
+                                <span class="news-heading">
+                                    <i class="fa-solid fa-clock"></i>
+                                    Ngày 19/3/2022
+                                </span>
+                            </p>
+                            <p class="news-text">
+                                OFF-WHITE x Nike Air Force 1 University Yellow là đôi sneakers được hé lộ trong website public—domain.com, một websi...
+                            </p>
+                            <p class="produce-accessory__more news-more">
+                                Xem thêm
+                                <i class="fa-solid fa-right-long"></i>
+                            </p>
+                        </div>
+                        <div class="news-box hide-mobile">
+                            <img src="./assets/img/t8.webp" alt="" class="news-img">
+                            <h3 class="news-title">
+                                Hàng loạt các phối màu của adidas Stan Smith được tung ra dành cho tín đồ mê sneakers
+                            </h3>
+                            <p class="news-info">
+                                <span class="news-heading">
+                                    <i class="fa-solid fa-user"></i>
+                                    Phạm Đang Huy
+                                </span>
+                                <span class="news-heading">
+                                    <i class="fa-solid fa-clock"></i>
+                                    Ngày 19/3/2022
+                                </span>
+                            </p>
+                            <p class="news-text">
+                                adidas Stan Smith đã không còn xa lạ với bất cứ ai yêu mến sneakers trên toàn cầu nói chung và tại Việt Nam nói riên...
+                            </p>
+                            <p class="produce-accessory__more news-more">
+                                Xem thêm
+                                <i class="fa-solid fa-right-long"></i>
+                            </p>
+                        </div>
+                        <div class="news-box hide-mobile">
+                            <img src="./assets/img/t9.webp" alt="" class="news-img">
+                            <h3 class="news-title">
+                                Nike AIR FORCE 1 Love Women – Phối màu dành riêng cho một nửa thế giới
+                            </h3>
+                            <p class="news-info">
+                                <span class="news-heading">
+                                    <i class="fa-solid fa-user"></i>
+                                    Phạm Đang Huy
+                                </span>
+                                <span class="news-heading">
+                                    <i class="fa-solid fa-clock"></i>
+                                    Ngày 19/3/2022
+                                </span>
+                            </p>
+                            <p class="news-text">
+                                Nike lại tiếp tục tung ra một phối màu sử dụng tông màu trắng chủ đạo bằng chất liệu canvas kết hợp denim trên đôi s...
+                            </p>
+                            <p class="produce-accessory__more news-more">
+                                Xem thêm
+                                <i class="fa-solid fa-right-long"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="flexbox-center footer">
+            <div class="container-main">
+                <div class="flexbox-center footer-wapper">
+                    <div class="footer-group">
+                        <div class="footer-logo">
+                            <img src="./assets/img/logo.webp" alt="">
+                        </div>
+                        <p class="flexbox-center footer-address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Quốc lộ 61, xã Hòa An, huyện Phụng Hiệp, tỉnh Hậu Giang
+                        </p>
+                        <p class="flexbox-center footer-address">
+                            <i class="fa-solid fa-phone"></i>
+                            0788793093
+                        </p>
+                        <p class="flexbox-center footer-address">
+                            <i class="fa-solid fa-headphones"></i>
+                            pham.dang.huy092@gmail.com
+                        </p>
+                        <div class="footer-pay">
+                            <img src="./assets/img/nb1.webp" alt="">
+                            <img src="./assets/img/nb2.webp" alt="">
+                            <img src="./assets/img/nb3.webp" alt="">
+                            <img src="./assets/img/nb4.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-group">
+                        <ul class="footer-list">
+                            <li class="footer-item">VỀ CHÚNG TÔI</li>
+                            <li class="footer-item">Trang chủ</li>
+                            <li class="footer-item">Giới thiệu</li>
+                            <li class="footer-item">Sản phẩm</li>
+                            <li class="footer-item">Tin tức</li>
+                            <li class="footer-item">Liên hệ</li>
+                        </ul>
+                    </div>
+                    <div class="footer-group">
+                        <ul class="footer-list">
+                            <li class="footer-item">Chính sách</li>
+                            <li class="footer-item">Điều khoảng</li>
+                            <li class="footer-item">Về hàng gặp sự cố</li>
+                            <li class="footer-item">Tư vấn trực tiếp</li>
+                            <li class="footer-item">Đổi trả hàng</li>
+                            <li class="footer-item">Bảo hành</li>
+                        </ul>
+                    </div>
+                    <div class="footer-group">
+                        <h4 class="footer-title">
+                            THEO DÕI CHÚNG TÔI
+                        </h4>
+                        <div class="flexbox-center footer-icon">
+                            <i class="fa-brands fa-youtube flexbox-center"></i>
+                            <i class="fa-brands fa-facebook-f flexbox-center"></i>
+                            <i class="fa-brands fa-instagram flexbox-center"></i>
+                        </div>
+                        <h4 class="footer-title">
+                            ĐĂNG KÝ ĐỂ NHẬN TIN
+                        </h4>
+                        <div class="footer-send">
+                            <input type="text" class="footer-input" placeholder="Nhập địa chỉ email">
+                            <button class="footer-btn">
+                                Gửi
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer-end">
+                    @ Bản quyền thuộc về HUY | Cung cấp bởi <span>KÝ</span>
+                </p>
+            </div>
+        </footer>
+        <div class="contact">
+            <ul class=" flexbox-center contact-list hide-pc">
+                <li class="flexbox-center contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                </li>
+                <li class="flexbox-center contact-item">
+                    <i class="fa-brands fa-github"></i>
+                </li>
+                <li class="flexbox-center contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                </li>
+                <li class="flexbox-center contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                </li>
+            </ul>
+        </div>
+        <ul class="contact-group hide-tablet">
+            <li class="flexbox-center contact-icon">
+                <i class="fa-solid fa-phone"></i>
+                <p class="contact-more">
+                    Gọi ngay cho chúng tôi
+                </p>
+            </li>
+            <li class="flexbox-center contact-icon">
+                <i class="fa-brands fa-github"></i>
+                <p class="contact-more">
+                    Để đây cho đẹp
+                </p>
+            </li>
+            <li class="flexbox-center contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="contact-more">
+                    Gửi email cho chúng tôi
+                </p>
+            </li>
+            <li class="flexbox-center contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="contact-more">
+                    Liên hệ
+                </p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
